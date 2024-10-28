@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="file/style.css">
+</head>
+
+<body>
+    <h2>Formulir Pendaftaran</h2>
+    <form id="registrationForm" onsubmit="return validateForm()">
+        <label for="name">Nama:</label>
+        <input type="text" id="name" name="name" />
+        <span id="nameError" style="color: red;"></span><br><br>
+
+        <label for="phone">Nomor Telepon:</label>
+        <input type="text" id="phone" name="phone" />
+        <span id="phoneError" style="color: red;"></span><br><br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email" />
+        <span id="emailError" style="color: red;"></span><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+    <script src="file/script.js"></script>
+</body>
+
+</html>
