@@ -11,7 +11,7 @@ function validateForm() {
     
     // Cek validasi jika form kosong
     if (!name || !phone || !email) {
-        alert("Semua field harus diisi!");
+        alert("Semua form wajib diisi!");
         return false;
     }
 
